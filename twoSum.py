@@ -1,6 +1,8 @@
 # Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 class Solution:
+    # Input: List of integers and an integer target.
+    # Output: Returns a list having indices of two numbers such that they add up to target.
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         ''' Use a dictionary numsToindex to save the list elements
             with an index for faster access later. 
